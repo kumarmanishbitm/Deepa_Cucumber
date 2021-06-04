@@ -25,7 +25,7 @@ public class LoginDemoSteps_PF {
 		driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 		driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
-		driver.manage().window().maximize();
+		
 	}
 
 	@And("User on Login page")
